@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.optionBoxContainer{
+  display: flex;
+  justify-content: space-around;
+  padding: 200px;
+}
+
+.ToSelect , .fromSelect{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background-color: aqua;
+  justify-content: center;
+} 
+
+.button{
+  width: 100px;
+  height: 50px;
+  background-color: red;
+}
