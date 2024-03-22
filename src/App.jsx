@@ -9,8 +9,8 @@ function App() {
 // const [input , setInput] = useState("");
 // const [output , setOutput] = useState(" ");
 
-const [inputdata, setinputData] = useState("hello");
-  const [result, setResult] = useState("");
+const [inputdata, setinputData] = useState("");
+  const [result, setResult] = useState("Output");
   const [source_language, set_source_language] = useState("en");
   const [target_language, set_target_language] = useState("bn");
 //Api Calling 
@@ -92,7 +92,7 @@ async function getTranslatedData(){
                       const userDefineInput = (e.target.value)
                       setinputData(userDefineInput)
                       console.log(userDefineInput);
-                    }} value={inputdata} className='rounded p-1 w-4/5'/>
+                    }} value={inputdata} className='rounded p-1 w-3/5'/>
             </div>
 
             <div className='outputBox w-3/5 bg-slate-600 flex  justify-around p-3 items-center text-white'>
