@@ -4,22 +4,15 @@
   box-sizing: border-box;
 }
 
-.optionBoxContainer{
-  display: flex;
-  justify-content: space-around;
-  padding: 200px;
+.button{
+  background-color: rgb(55, 58, 58);
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
 }
 
-.ToSelect , .fromSelect{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 30px;
-  background-color: aqua;
-  justify-content: center;
-} 
-
-.button{
-  width: 100px;
-  height: 50px;
-  background-color: red;
+.button:hover{
+  background-color: green;
 }
